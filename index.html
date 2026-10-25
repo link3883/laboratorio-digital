@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Un laboratorio digital para explorar ideas, código y experimentos web."
+    >
+
+    <title>Laboratorio Digital</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <a class="logo" href="./">LAB<span>.</span>DIGITAL</a>
+
+        <nav aria-label="Navegación principal">
+            <a href="#inicio">Inicio</a>
+            <a href="#experimentos">Experimentos</a>
+            <a href="#acerca">Acerca de</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <p class="eyebrow">ESPACIO DE EXPLORACIÓN DIGITAL</p>
+
+            <h1>Las ideas también pueden <span>experimentarse.</span></h1>
+
+            <p class="intro">
+                Un laboratorio independiente para explorar código,
+                diseño e interacciones digitales.
+            </p>
+
+            <a class="primary-button" href="#experimentos">
+                Explorar laboratorio <span aria-hidden="true">↗</span>
+            </a>
+
+            <p class="system-status">
+                <span class="status-dot"></span>
+                SISTEMA OPERATIVO · VERSIÓN 0.1
+            </p>
+        </section>
+
+        <section class="experiments" id="experimentos">
+            <div class="section-heading">
+                <p class="eyebrow">01 / ÁREA DE TRABAJO</p>
+                <h2>Zona de experimentos</h2>
+                <p>Pequeñas pruebas. Nuevas posibilidades.</p>
+            </div>
+
+            <article class="experiment-card">
+                <span class="card-number">EXP. 001</span>
+                <h3>Interacción inicial</h3>
+
+                <p id="experiment-description">
+                    Este espacio está esperando su primer experimento.
+                </p>
+
+                <button id="experiment-button" type="button">
+                    Ejecutar experimento
+                </button>
+            </article>
+        </section>
+
+        <section class="about" id="acerca">
+            <p class="eyebrow">02 / FILOSOFÍA</p>
+            <h2>Aprender construyendo.</h2>
+            <p>
+                Cada experimento es una oportunidad para entender
+                cómo funcionan las cosas y convertir ideas en software.
+            </p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>LAB.DIGITAL — Construido con curiosidad y código.</p>
+        <p>Versión 0.1.0</p>
+    </footer>
+</body>
+</html>
